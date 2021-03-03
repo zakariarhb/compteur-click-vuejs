@@ -12,11 +12,11 @@
 <body>
     <div class="composant" id="app">
         <h3>Multiple counters component</h3>
-        <div class="incremnt_component">
-            <button class="increment" v-on:click="incrementation">CLICK HERE TO INCREMENT</button>
-            <div class= "circle" v-bind:style="borderRaduis">{{compteur}}</div>
+        <div v-for = "compt in compteurs" class="incremnt_component">
+            <button class="increment" v-on:click="incrementation(compt)">CLICK HERE TO INCREMENT</button>
+            <div class= "circle" v-bind:style="compt.borderRaduis">{{compt.compteur}}</div>
         </div>
-        <button class="incrementButton">ADD A COUNTER :)</button>
+        <button class="incrementButton" v-on:click = "addCompteur">ADD A COUNTER :)</button>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>

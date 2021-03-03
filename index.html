@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="style.css"/>
     <title>Challenge exercice2</title>
 </head>
 <body>
     <div class="composant" id="app">
-        <h3>Multiple counters component</h3>
+        <h5>Multiple counters component</h5>
         <div v-for = "compt in compteurs" class="incremnt_component">
             <button class="increment" v-on:click="incrementation(compt)">CLICK HERE TO INCREMENT</button>
             <div class= "circle" v-bind:style="compt.borderRaduis">{{compt.compteur}}</div>

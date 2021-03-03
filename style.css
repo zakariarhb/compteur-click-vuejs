@@ -1,3 +1,6 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
 .composant{
     margin-top: 10%;
     margin-left: auto;
@@ -9,7 +12,7 @@
     /* Add shadows to create the "card" effect */
     box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.2);
     text-align: center;
-    font-size:2rem;
+    font-size:1.8rem;
 }
 
 .incremnt_component{
@@ -23,8 +26,11 @@
     border-radius: 4px;
     /* Add shadows */
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.3);
-    border: 0px;
+    border: none;
+    outline:none;
     font-size:1.2rem;
+    font-weight: bolder;
+    font-family: inherit;
 }
 
 .circle {
@@ -33,9 +39,8 @@
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    color : whitesmoke;
+    color : #f4f4f4;
     background-color: rgba(0, 0, 0, 0.753);
-    border-radius: 50%;
     display: inline-block;
     text-align: center;
     font-size:1.2rem;
@@ -46,9 +51,11 @@
     padding: 0.8% 2%;
     border-radius: 5px;
     background-color: blue;
-    color: whitesmoke;
+    color: #f4f4f4;
     /* Add shadows to create the "card" effect */
     box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.2);
-    border-width: 0px;
     font-size:1.1rem;
+    border: none;
+    outline:none;
+    font-family: inherit;
 }

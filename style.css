@@ -32,7 +32,6 @@ h5{
     border: none;
     outline:none;
     font-size:1.1rem;
-    font-weight: bolder;
     font-family: inherit;
 }
 
@@ -47,20 +46,31 @@ h5{
     display: inline-block;
     text-align: center;
     font-size:1.1rem;
+    font-weight: 100;
   }
 .incrementButton {
     margin-bottom: 4%;
     margin-right: -20%;
-    padding: 0.8% 2%;
+    padding: 1% 2% 1% 2%;
     border-radius: 5px;
     background-color: blue;
-    color: #f4f4f4;
+    color: rgb(255, 255, 255, 0.95);
     /* Add shadows to create the "card" effect */
     box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.2);
-    font-size:1rem;
+    font-size:0.9rem;
     border: none;
     outline:none;
     font-family: inherit;
+    font-weight: normal;
+}
+.showphrases{
+    padding-left: 22%;
+    padding-bottom : 1%;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 900;
+    color : #666666;
+    text-align : justify;
 }
 /* for all phones*/
 @media only screen and (max-width: 900px) {
@@ -69,5 +79,9 @@ h5{
     }
     .increment{
         width: 70%;
+    }
+    .showphrases{
+        padding-left: 15%;
+        padding-bottom : 1%;
     }
   }

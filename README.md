@@ -1,2 +1,2 @@
 # compteur-click-vuejs
-[Preview](https://compteur-click-vuejs.herokuapp.com/)
+La solution a été déployé sur : [https://compteur-click-vuejs.herokuapp.com](https://compteur-click-vuejs.herokuapp.com/)
